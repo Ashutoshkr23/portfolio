@@ -12,7 +12,7 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-          👋 Hi, I'm Ashutosh, a passionate and detail-oriented full-stack developer specializing in frontend technologies like Next.js, React, and Tailwind CSS. With a B.Tech in Computer Science and Engineering, I bring a strong foundation in coding and a creative approach to web development. My journey involves transforming ideas into seamless, user-centric experiences. Let's innovate together and shape the future of the web!
+          👋 Hi,  I&apos;m{" "} Ashutosh, a passionate and detail-oriented full-stack developer specializing in frontend technologies like Next.js, React, and Tailwind CSS. With a B.Tech in Computer Science and Engineering, I bring a strong foundation in coding and a creative approach to web development. My journey involves transforming ideas into seamless, user-centric experiences. Let's innovate together and shape the future of the web!
           </p>
           <p className="text-3xl mt-12">Experience</p>
           <p className="text-2xl text-gray-300 mt-8">Full Stack Developer <a href="https://www.alphamintlabs.com/" target="_blank" rel="noopener noreferrer"><span className="text-green-2 hover:text-[#60D9F9]">@ AlphamintLabs</span></a></p>
