@@ -21,6 +21,9 @@ const config: Config = {
         'green': 'rgba(106, 226, 199, .5)',
         'green-2': 'rgba(106, 226, 199, 1)'
       },
+      dropShadow: {
+        'white': '0 35px 35px rgba(0, 0, 0, 0.25)',
+      }
     },
   },
   plugins: [],
