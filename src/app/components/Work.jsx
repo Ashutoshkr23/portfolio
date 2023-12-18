@@ -32,7 +32,7 @@ const Work = () => {
             <p>Started as a beginner and rapidly acquired proficiency in React, Next.js, and MongoDB while actively contributing to real-world projects, highlighting a commitment to continuous learning and skill development.</p>
           </div>
         </div>
-        <div className="ml-16 rounded-[200px] w-[400px] h-[400px] overflow-hidden">
+        <div className="hidden md:block ml-16 rounded-[200px] w-[400px] h-[400px] overflow-hidden">
         <Image src="/Images/Work.png" width={400} height={400} />
         </div>
       </div>

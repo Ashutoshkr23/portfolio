@@ -53,51 +53,15 @@ function Navbar() {
               </div>
           </div>
           {/*Mobiles*/}
-          {/*<div className='lg:hidden flex'>
-            <div className='navbar bg-dark flex justify-between px-5'>
-                  <img src="/assets/images/navbar/Logo.png" alt="Bravos Logo" className="h-10 w-24 my-3.5" />
-            </div>
-              <div className='flex'>
-                  <button
-                      onClick={() => setIsOpen(!isOpen)}
-                      type="button" class="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600">
-                      <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
-                  </button>
-
-                  {isOpen && (
-                      <div className="absolute right-0 mt-2 w-56 bg-white border rounded-md shadow-lg z-10">
-                          <div className="py-1">
-                              <a
-                                  href="#"
-                                  className="block px-4 py-2 text-gray-700 hover:bg-gray-100 hover:text-gray-900"
-                              >
-                                  Home
-                              </a>
-                              <a
-                                  href="#"
-                                  className="block px-4 py-2 text-gray-700 hover:bg-gray-100 hover:text-gray-900"
-                              >
-                                  About
-                              </a>
-                              <a
-                                  href="#"
-                                  className="block px-4 py-2 text-gray-700 hover:bg-gray-100 hover:text-gray-900"
-                              >
-                                  Contact
-                              </a>
-                          </div>
-                      </div>
-                  )}
-              </div>
-          </div>*/}
+          
           <div className='lg:hidden '>
           <nav className="bg-dark px-2  sm:px-4 py-2.5  fixed w-full z-50 top-0 left-0">
               <div className="container flex flex-wrap items-center justify-between mx-auto">
                   <a href="#" className="flex items-center">
-                      <img src="/assets/images/navbar/Logo.png" className="h-6 ml-3 sm:h-9 md:h-12" alt="Bravas Logo"/>
+                      <img src="/Images/Logo.jpeg" className="h-6 ml-3 sm:h-9 md:h-12" alt="Logo"/>
                   </a>
                   <div className="flex ">
-                          <button className='h-10 btn w-28 ml-12 rounded text-white border border-white hover:bg-green-2 hover:border-none hover:font-bold my-auto mr-4'><a href="https://siddharth223358.typeform.com/to/zj0SLmyj" target="_blank">Get in Touch</a></button>
+                         
                       <button
                           onClick={() => setIsOpen(!isOpen)}
                           type="button" className="inline-flex relative z-[100] items-center ">
@@ -130,18 +94,26 @@ function Navbar() {
                                               <div onClick={() => setIsOpen(!isOpen)} className="nav-link-container py-4  border-b-2 border-white ">
                                                   <a href="#work" className="nav-link ">Project</a>
                                               </div>
+                                              <div onClick={() => setIsOpen(!isOpen)} className="nav-link-container py-4  border-b-2 border-white ">
+                                                  <a href="#work" className="nav-link ">Contact</a>
+                                              </div>
+                                              
                                           </div>
                                           <div className='mt-auto'>
                                               <div className="flex flex-row flex-wrap justify-center mx-auto my-4 min-w-0 items-center" style={{ height: '40px', borderRadius: '19px', margin: 'auto' }}>
                                                   <div className="flex flex-row flex-wrap justify-center mx-auto my-4 min-w-0 items-center" style={{ height: '40px', width: '528px', borderRadius: '19px', margin: 'auto' }}>
-                                                      <a href="https://www.facebook.com/bravasdigital" target="blank" className="w-11 h-10">
-                                                          <img className="w-6 h-6 hover:scale-125 inline-block" src={"assets/images/footer/fb.svg"} alt="facebook icon" />
+                                                      <a href="https://github.com/Ashutoshkr23" target="blank" className="w-11 h-10">
+                                                          <img className="w-6 h-6 hover:scale-125 inline-block" src={"/Images/Social/Github.png"} alt="Github icon" />
                                                       </a>
-                                                      <a href="https://www.linkedin.com/company/bravasdigital" target="blank" className="w-11 h-10">
-                                                          <img className="w-6 h-6 hover:scale-125 inline-block" src="assets/images/footer/linkedin.ico" alt="linkedin icon" />
+                                                      <a href="https://www.linkedin.com/in/ashutosh-kumar-68659316a/" target="blank" className="w-11 h-10">
+                                                          <img className="w-6 h-6 hover:scale-125 inline-block" src="/Images/Social/LinkedIn.png" alt="linkedin icon" />
                                                       </a>
-                                                      <a href="https://www.instagram.com/bravasdigital/" target="blank" className="w-11 h-10">
-                                                          <img className="w-6 h-6 hover:scale-125 inline-block" src={"assets/images/footer/instagram-light.ico"} alt="instagram icon" />
+                                                      <a href="mailto:ashutoshkumar.23ak2@gmail.com" target="_blank" className="w-11 h-10">
+    <img className="w-6 h-6 hover:scale-125 inline-block" src={"/Images/Social/mail.png"} alt="mail icon" />
+</a>
+
+                                                      <a href="https://twitter.com/Ashutosh2328" target="blank" className="w-11 h-10">
+                                                          <img className="w-6 h-6 hover:scale-125 inline-block" src={"/Images/Social/Twitter.png"} alt="Twitter icon" />
                                                       </a>
 
 
