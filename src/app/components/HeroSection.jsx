@@ -9,14 +9,14 @@ const HeroSection = () => {
     
   return (
     <section className="lg:py-16 text-green-2">
-      <div className="grid grid-cols-1 sm:grid-cols-12">
+      <div className="flex flex-col-reverse md:flex-row md:justify-between ">
         <motion.div
           initial={{ opacity: 0, scale: 0.5 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5 }}
-          className="col-span-8 place-self-center text-center sm:text-left justify-self-start"
+          className="col-span-8 place-self-center text-center sm:text-left justify-self-start mt-12 sm:mt-20 lg:mt-4"
         >
-          <h1 className="text-green-2 mb-4 text-4xl sm:text-5xl lg:text-8xl lg:leading-normal font-extrabold">
+          <h1 className="text-green-2 mb-4 text-3xl sm:text-5xl lg:text-8xl lg:leading-normal font-extrabold">
             <span className="text-white bg-clip-text bg-gradient-to-r from-green to-green-2">
               Hello, I&apos;m{" "}
             </span>
@@ -57,7 +57,7 @@ const HeroSection = () => {
           initial={{ opacity: 0, scale: 0.5 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5 }}
-          className="col-span-4 place-self-center mt-4 lg:mt-0"
+          className="col-span-4 place-self-center mt-12 sm:mt-20 lg:mt-4"
         >
           <div className="rounded-full bg-[#181818] overflow-hidden w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative">
   <video

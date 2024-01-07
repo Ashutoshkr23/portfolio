@@ -8,7 +8,7 @@ import Main from "./components/Main"
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col bg-black container mx-auto px-12 ">
+    <main className="flex min-h-screen flex-col bg-black container mx-auto px-6 sm:px-12">
       <Navbar/>
       <Main/>
       <HeroSection/>

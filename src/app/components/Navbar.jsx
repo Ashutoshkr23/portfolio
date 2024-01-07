@@ -55,7 +55,7 @@ function Navbar() {
           {/*Mobiles*/}
           
           <div className='lg:hidden '>
-          <nav className="bg-dark px-2  sm:px-4 py-2.5  fixed w-full z-50 top-0 left-0">
+          <nav className="bg-dark px-6  sm:px-12 py-2.5  fixed w-full z-50 top-0 left-0">
               <div className="container flex flex-wrap items-center justify-between mx-auto">
                   <a href="#" className="flex items-center">
                       <img src="/Images/Logo.jpeg" className="h-6 ml-3 sm:h-9 md:h-12" alt="Logo"/>
